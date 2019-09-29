@@ -1,0 +1,157 @@
+body {
+    background-image: url("../resources/jumbotron.jpg");
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.7;
+    padding: 5px 50px;
+}
+
+.navbar {
+    position: absolute;
+    padding: 0 15px;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-toggler {
+    display: none !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron-text {
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.7;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.jumbotron {
+    padding-top: 64px;
+    background-image: url("../resources/jumbotron.jpg");
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.col {
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+    margin-top: 1px;
+    border-color: transparent;
+    padding-top: 20px;
+}
+
+.container-fluid h1 {
+    padding: 2px;
+    text-align: center;
+}
+
+ .display-4{
+     text-align: left !important;
+}
+
+.no-dec {
+    list-style-type: none;
+}
+
+.card-deck {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    max-width: 350px;
+}
+
+.toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.fa-arrow-up {
+    font-size: 30px;
+}
+/* 
+.navbar-toggler .navbar-toggler-icon {
+    background-image: none;
+} */
+
+@media (min-width: 600px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: auto;
+        display: flex !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: inline-block !important;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar {
+        opacity: 0.95;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 35px;
+    }
+
+}   
