@@ -48,7 +48,7 @@ h1 {
     text-align: center;
 }
 
-h4{
+h4 {
     color: rgb(114, 68, 0);
 }
 
@@ -78,7 +78,8 @@ h6 {
     justify-content: center;
 }
 
-.footer a, p {
+.footer a,
+p {
     margin: 3px;
 }
 
@@ -165,10 +166,14 @@ hr {
 .card {
     border: 1px solid #fff;
     background-color: #161616;
-    max-width: 300px;
-    min-width: 226px;
+    max-width: 375px;
+    min-width: 375px;
     margin-bottom: 10px !important;
     overflow: hidden;
+}
+
+.card-subtitle {
+    color: orange;
 }
 
 .toTopBtn {
@@ -199,6 +204,13 @@ hr {
     }
 }
 
+@media (max-width: 897px) {
+    .card {
+        max-width: 350px;
+        min-width: 250px;
+    }
+}
+
 @media (max-width: 600px) {
     .navbar-expand-lg .navbar-toggler {
         display: inline-block !important;
@@ -212,7 +224,7 @@ hr {
         align-items: center;
     }
 
-    .footer .container-fluid{
+    .footer .container-fluid {
         flex-flow: column
     }
 }
