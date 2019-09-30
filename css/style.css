@@ -167,7 +167,7 @@ hr {
     border: 1px solid #fff;
     background-color: #161616;
     max-width: 375px;
-    min-width: 375px;
+    min-width: 275px;
     margin-bottom: 10px !important;
     overflow: hidden;
 }
