@@ -1,13 +1,7 @@
 body {
-    background-image: url("../resources/jumbotron.jpg");
     background-color: #000000;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     color: #fff;
     font-family: 'Raleway', sans-serif;
-    opacity: 1;
 }
 
 a {
@@ -54,6 +48,14 @@ h1 {
     text-align: center;
 }
 
+h4{
+    color: rgb(114, 68, 0);
+}
+
+strong {
+    color: rgb(114, 68, 0);
+}
+
 h6 {
     font-size: 13px;
 }
@@ -65,10 +67,19 @@ h6 {
 }
 
 .footer .container-fluid {
+    background-image: url("../resources/jumbotron.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     padding: 4px;
-    margin-bottom: 0;
     text-align: center;
-    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a, p {
+    margin: 3px;
 }
 
 .navbar {
@@ -114,6 +125,11 @@ h6 {
 }
 
 .jumbotron {
+    background-image: url("../resources/jumbotron.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,8 +166,9 @@ hr {
     border: 1px solid #fff;
     background-color: #161616;
     max-width: 300px;
-    min-width: 250px;
+    min-width: 226px;
     margin-bottom: 10px !important;
+    overflow: hidden;
 }
 
 .toTopBtn {
@@ -192,6 +209,10 @@ hr {
     }
 
     .card-deck {
-     align-items: center;
-    }    
+        align-items: center;
+    }
+
+    .footer .container-fluid{
+        flex-flow: column
+    }
 }
