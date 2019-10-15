@@ -160,14 +160,15 @@ hr {
 }
 
 .card-deck {
+    flex-flow: wrap-reverse;
     justify-content: center;
 }
 
 .card {
     border: 1px solid #fff;
     background-color: #161616;
-    max-width: 375px;
-    min-width: 275px;
+    max-width: 350px;    
+    min-width: 350px;
     margin-bottom: 10px !important;
     overflow: hidden;
 }
