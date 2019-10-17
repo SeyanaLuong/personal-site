@@ -4,6 +4,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.fa-linkedin {
+    font-size: 32px;
+}
+
 a {
     color: #fff !important;
 }
