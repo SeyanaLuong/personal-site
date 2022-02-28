@@ -1,8 +1,11 @@
 body {
-    background-color: #000000;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
+    background-image: url("../resources/jumbotron.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+
 
 .fa-linkedin {
     font-size: 32px;
@@ -65,17 +68,21 @@ h6 {
 }
 
 .container-fluid {
-    background-color: #000;
     color: #fff;
     padding: 20px 50px;
 }
 
+.resume {
+    background-color: #00000071;
+    
+}
+
+.projects {
+    height: 100vh;
+    margin-bottom: 0;
+}
+
 .footer .container-fluid {
-    background-image: url("../resources/jumbotron.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     padding: 4px;
     text-align: center;
     display: flex;
@@ -93,7 +100,7 @@ p {
     top: 0;
     width: 100%;
     font-size: 20px;
-    background-color: #000000;
+    background-color: #00000071;
 }
 
 .navbar-nav {
@@ -123,24 +130,19 @@ p {
 }
 
 .jumbotron-text {
-    background-color: #000000;
+    background-color: #00000071;
     color: #fff;
     padding: 10px;
     margin-top: 30px;
 }
 
 .jumbotron {
-    background-image: url("../resources/jumbotron.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 64px;
     background-color: transparent;
-    height: 50vh;
+    height: 100vh;
     margin-bottom: 0;
 }
 
@@ -164,15 +166,13 @@ hr {
 }
 
 .card-deck {
-    flex-flow: wrap-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .card {
     border: 1px solid #fff;
     background-color: #161616;
-    max-width: 350px;    
-    min-width: 350px;
+    max-width: 400px;  
     margin-bottom: 10px !important;
     overflow: hidden;
 }
