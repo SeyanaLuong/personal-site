@@ -6,11 +6,6 @@ body {
     background-position: center center;
 }
 
-
-.fa-linkedin {
-    font-size: 32px;
-}
-
 a {
     color: #fff !important;
 }
@@ -74,7 +69,7 @@ h6 {
 
 .resume {
     background-color: #00000071;
-    
+    display: contents;
 }
 
 .projects {
@@ -232,4 +227,5 @@ hr {
     .footer .container-fluid {
         flex-flow: column
     }
+
 }
