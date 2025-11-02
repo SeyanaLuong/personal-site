@@ -6,6 +6,10 @@ body {
     background-position: center center;
 }
 
+section {
+    display: contents;
+}
+
 a {
     color: #fff !important;
 }
@@ -69,7 +73,6 @@ h6 {
 
 .resume {
     background-color: #00000071;
-    display: contents;
 }
 
 .projects {
@@ -229,3 +232,4 @@ hr {
     }
 
 }
+
