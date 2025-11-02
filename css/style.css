@@ -6,6 +6,14 @@ body {
     background-position: center center;
 }
 
+section {
+ display: contents;
+}
+
+.test {
+ background-color: #00000071;
+}
+
 a {
     color: #fff !important;
 }
@@ -65,10 +73,6 @@ h6 {
 .container-fluid {
     color: #fff;
     padding: 20px 50px;
-}
-
-.resume {
-    background-color: #00000071;
 }
 
 .projects {
